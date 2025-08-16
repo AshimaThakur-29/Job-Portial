@@ -1,0 +1,36 @@
+.Sidebar1{
+    margin: auto;
+    width: 350px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.Sidebar1 span{
+    margin: 0px 20px;
+}
+.Sidebar1 input{
+    width: 100%;
+    padding: 6px;
+}
+.side button{
+    width: 100%;
+    padding:6px;
+    margin: 20px 0px;
+    color: white;
+    background-color: #2764f2f7;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width:980px){
+.Sidebar1{
+    width:500px;
+}
+}
+
+@media screen and (max-width:780px){
+    .Sidebar1{
+    margin: auto;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+}

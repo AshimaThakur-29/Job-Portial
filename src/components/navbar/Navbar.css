@@ -1,0 +1,52 @@
+.nav-center a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    margin:0px 10px;
+    
+}
+.Main-Link .active-link {
+  color:white !important;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color:#3c63ece0;
+  border-radius: 6px;
+  box-shadow: -2px 2px 1px grey;
+  text-decoration: none;
+}
+
+ .nav-left span{
+    font-size: 36px;
+    padding: 0px 10px;
+}
+
+.menu-icon{
+display: none;
+cursor: pointer;
+}
+@media screen and (max-width:1150px){
+
+     .menu-icon {
+    display: block;
+  }
+
+  .Main-Link {
+ display: none;
+  }
+  .nav-right .btn{
+display: none;
+  }
+  .active-link {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-links.open {
+  display: block;
+}
+
+  
+
+}
+
+

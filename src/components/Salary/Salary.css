@@ -1,0 +1,14 @@
+
+.Salary input{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.Salary .radiobutton{
+    padding: 6px;
+}
+.Salary-btn button{
+padding: 6px 14px;
+outline: none;
+border: none;
+border: 1px solid grey;
+}

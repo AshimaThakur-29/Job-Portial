@@ -1,0 +1,12 @@
+.Sidebar{
+    background-color:aliceblue;
+    width:350px;
+    margin: auto;
+    padding: 20px;
+}
+@media  screen and (max-width:1050px){
+.Sidebar{
+    width: 350px;
+}
+
+}

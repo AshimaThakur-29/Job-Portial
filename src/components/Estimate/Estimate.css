@@ -1,0 +1,85 @@
+.Salary-Estimate{
+    padding: 80px;
+    background-color: aliceblue;
+    margin: 0px 70px;
+}
+.Estimate-Search{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.Estimate-Search input{
+    width: 550px;
+    padding: 6px;
+
+}
+.Developer{
+    margin-top: 60px;
+}
+.Developer .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Developer .col-4{
+    margin:20px -18px;
+}
+.opening a{
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 10px 8px;
+}
+.Shadow p{
+    color: #075c9f;
+    font-size: 16px;
+}
+.Shadow{
+    padding:30px 6px;
+        box-shadow: 1px 3px 7px grey;
+
+}
+@media screen and (max-width:950px){
+    .Estimate-Search{
+        display: grid;
+    }
+    .Estimate-btn{
+        border-radius: 10px;
+        width: 100px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .Developer{
+    margin-top: 40px;
+}
+.Estimate-Search input{
+    width: 500px;
+    padding: 6px;
+
+}
+.Developer .row{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center;
+}
+.Developer h3{
+    font-weight: bold;
+}
+.Developer .col-4{
+    width: 100% !important;
+    margin:20px -18px;
+    text-align: center;
+}
+}
+@media screen and (max-width:550px){
+    .Estimate-Search input{
+    width: 300px;
+    padding: 6px;
+
+}
+.Salary-Estimate{
+    padding: 50px;
+    margin: 0px 20px;
+}
+}
