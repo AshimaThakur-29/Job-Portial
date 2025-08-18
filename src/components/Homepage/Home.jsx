@@ -10,10 +10,10 @@ function Home() {
 
   const addData = async () => {
     try {
-      const get = await fetch("https://dummyjson.com/users/4");
+      const get = await fetch("https://dummyjson.com/users?limit=8");
       const output = await get.json();
        console.log(output);
-      setData([output]);
+      setData(output.users);
       console.log(output.users);
     }
     catch (error) {
@@ -60,7 +60,7 @@ function Home() {
         </div>
       </form>
       <div className="content row">
-        <div className="col-12 d-flex">
+        <div className="col-12 d-flex justify-content-between ">
           {/* Left Sidebar */}
           <div className="Content-left">
             <div className="col-3 w-full">
@@ -71,18 +71,23 @@ function Home() {
           <div className="Content-center col-5">
             <div className="col-12">
 
-              {data.map((users) => (
-                <div className="about d-flex align-items-center my-3" key={users.id}>
-                  <img
-                    src={users.image}
-                    alt={users.username}
-                    width="60"
-                    height="60"
-                    className="me-3 rounded-circle"
-                  />
-                  <p className="mb-0 fw-semibold">{users.username}</p>
-                </div>
-              ))}
+            {data.map((user) => (
+  <div className="about d-flex align-items-center my-3" key={user.id}>
+    <img
+      src={user.image}
+      alt={user.username}
+      width="80"
+      height="80"
+      className="me-3 rounded-circle"
+    />
+    <div>
+      <p className="mb-0 fw-semibold">{user.firstName} {user.lastName}</p>
+      <p className="mb-0">{user.company?.name} - {user.company?.department}</p>
+      <p className="mb-0">{user.address?.city}, {user.address?.state}</p>
+    </div>
+  </div>
+))}
+
             </div>
           </div>
           {/* Right Sidebar */}
