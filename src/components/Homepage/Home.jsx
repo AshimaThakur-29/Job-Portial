@@ -68,8 +68,8 @@ function Home() {
             </div>
           </div>
            {/* Center Content */}
-          <div className="Content-center col-5">
-            <div className="col-12">
+          <div className="Content-center">
+            <div className="col-5 w-full">
 
             {data.map((user) => (
   <div className="about d-flex align-items-center my-3" key={user.id}>

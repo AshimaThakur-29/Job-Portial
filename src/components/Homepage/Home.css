@@ -44,6 +44,9 @@
        padding:30px 6px;
         box-shadow: 1px 3px 7px grey;
 }
+.content .col-5{
+    width: 100%;
+}
 @media screen and (max-width:1050px){
     .Home{
         padding: 30px !important;
@@ -64,6 +67,9 @@
 }
 .content .col-3{
     width: 100%;
+}
+.content .col-5{
+    width: 100% ;
 }
 
 }
