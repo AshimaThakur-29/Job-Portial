@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Homepage/Home";
 import Login from './components/Login/Login';
-import SignUp from './components/Sign Up/Signup';
+import SignUp from './components/SignUp/SignUp.jsx';
 import Job from "./components/Job/Job";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Estimate from "./components/Estimate/Estimate";
