@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import { CiSearch } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
-import Sidebar from "../Sidebar/sidebar.jsx";
+import Sidebar from "../Sidebar/Sidebar.jsx";
 import Sidebar1 from "../Sidebar1/Sidebar1.jsx";
 
 function Home() {
