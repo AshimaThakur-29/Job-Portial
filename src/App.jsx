@@ -1,13 +1,13 @@
 import React,{useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import Home from "./components/Homepage/Home";
-import Login from './components/Login/Login';
+import Navbar from "./components/navbar/Navbar.jsx";
+import Home from "./components/Homepage/Home.jsx";
+import Login from './components/Login/Login.jsx';
 import SignUp from './components/SignUp/SignUp.jsx';
-import Job from "./components/Job/Job";
+import Job from "./components/Job/Job.jsx";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import Estimate from "./components/Estimate/Estimate";
+import Estimate from "./components/Estimate/Estimate.jsx";
 function App() {
   
   return (

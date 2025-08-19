@@ -1,11 +1,11 @@
 import React,{useState} from "react";
 import "./Navbar.css";
 import {   NavLink ,Link} from "react-router-dom";
-import Home from "../Homepage/Home";
-import Estimate from "../Estimate/Estimate";
-import Login from "../Login/Login";
-import Job from "../Job/Job";
-import Humburger from "../Humburger/Humburger";
+import Home from "../Homepage/Home.jsx";
+import Estimate from "../Estimate/Estimate.jsx";
+import Login from "../Login/Login.jsx";
+import Job from "../Job/Job.jsx";
+import Humburger from "../Humburger/Humburger.jsx";
 
 
 

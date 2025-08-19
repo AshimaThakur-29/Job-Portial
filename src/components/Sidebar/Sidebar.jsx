@@ -1,10 +1,10 @@
 import React from "react";
 import "./Sidebar.css"
-import Salary from "../Salary/Salary";
-import Location from "../Location/Location";
-import Posting from "../Posting/Posting";
-import Experience from "../Experience/Experience";
-import Employment from "../Employment/Employment";
+import Salary from "../Salary/Salary.jsx";
+import Location from "../Location/Location.jsx";
+import Posting from "../Posting/Posting.jsx";
+import Experience from "../Experience/Experience.jsx";
+import Employment from "../Employment/Employment.jsx";
 function Sidebar(){
     return(
         <div className="Sidebar">
