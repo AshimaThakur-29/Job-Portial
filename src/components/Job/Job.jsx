@@ -96,7 +96,7 @@ function Job() {
               <div>
                 <label>Job Description</label>
                 <br />
-                <textarea className="form-control" rows="6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quo consequuntur accusamus eum voluptates omnis placeat cumque, corporis, dolore, praesentium ea ullam. Facilis aliquid consequuntur alias ipsum fugiat, corporis nisi.</textarea>
+                <textarea className="form-control" rows="6"></textarea>
               </div>
               <div>
                 <label>Job Posted by</label>

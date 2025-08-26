@@ -17,10 +17,9 @@
   flex-direction: column;
   padding: 10px 40px;
   position: absolute;
-  top: 50px;
   background-color:white;
   z-index: 100;
-  right: 10px;
+  right: 4px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

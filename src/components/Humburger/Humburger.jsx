@@ -5,7 +5,7 @@ import Home from "../Homepage/Home";
 import Job from "../Job/Job";
 import Estimate from "../Estimate/Estimate";
 import Login from "../Login/Login";
-import { FaBarsStaggered } from "react-icons/fa6";
+import { FaBars, FaTimes } from "react-icons/fa";
 function Humburger() {
   const [isOpen, setIsOpen]= useState(false);
 
@@ -13,11 +13,14 @@ function Humburger() {
     setIsOpen(!isOpen);
   }
 
+  const closeMenu = () => {
+    setIsOpen(false); 
+  };
   return (
    <>
       <div className= {`humburger ${isOpen ? 'open' : ''}`}>
 <div className="menu-icon" onClick={togglemenu}>
-              <FaBarsStaggered />
+              {isOpen ? <FaTimes /> : <FaBars />}
             </div>
    
    <div className="bar-icon"> 

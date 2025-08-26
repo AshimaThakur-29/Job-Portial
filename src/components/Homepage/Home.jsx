@@ -21,7 +21,7 @@ function Home() {
     };
   };
 
-  // Fetch data on component mount
+  
   useEffect(() => {
     addData();
   }, []);
@@ -60,7 +60,7 @@ function Home() {
         </div>
       </form>
       <div className="content row">
-        <div className="col-12 d-flex justify-content-between ">
+        <div className="col-12 d-flex justify-content-between align-items-center ">
           {/* Left Sidebar */}
           <div className="Content-left">
             <div className="col-3 w-full">
